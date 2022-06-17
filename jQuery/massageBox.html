@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>JQuery Message Box</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #message-box {
+            background-color: darkcyan;
+            text-align: center;
+            color: #fff;
+        }
+
+        #header {
+            cursor: pointer;
+            height: 20px;
+            padding: 10px;
+            border-bottom: 1px solid white;
+        }
+        #content {
+            height: 210px;
+            padding: 10px;
+            display: none;
+        }
+        #close{
+            float: right;
+        }
+        #close:hover{
+            color: gray;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="message-box">
+        <div id="header">
+            <span id="close">X</span>Mesajınız Var
+        </div>
+        <div id="content">
+
+        </div>
+
+    </div>
+
+
+
+    <script src="jquery.js"></script>
+</body>
+
+</html>

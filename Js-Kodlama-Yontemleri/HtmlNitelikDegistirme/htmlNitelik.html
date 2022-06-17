@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Nitelik Değiştirme</title>
+</head>
+
+<body style="font-family:Verdana ; font-size: 16px;">
+    <h2>ELEMENTİN NİTELİĞİNİ DEĞİŞTİRME</h2>
+    <input type="text" id="degistirilecekElement" value="Bu Bir Veri Giriş Alanıdır">
+
+    <button type="button" onclick="degistir()">Değiştir</button>
+
+    <script>
+        function degistir(){
+            document.getElementsByTagName('INPUT')['degistirilecekElement'].setAttribute("type","button")
+        }
+
+        document.getElementsByTagName('INPUT')["degistirilecekElement"].setAttribute('value','Bu Bir Buton Elementi')
+    </script>
+
+</body>
+
+</html>

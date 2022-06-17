@@ -204,12 +204,12 @@
 
 // Return'e gerek olmuyor log'da veya ekranda göstermek istediğimiz fonksiyonu yazarız.
 // Tek seferlik fonkisoynumuzdur
-(function(name){
-    var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-    var today = new Date()
-    var msg = 'Welcome'+ " " + name + " "+ 'Today is' + days[today.getDay()]
-   console.log(msg);
-}("Furkan"))
+// (function(name){
+//     var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+//     var today = new Date()
+//     var msg = 'Welcome'+ " " + name + " "+ 'Today is' + days[today.getDay()]
+//    console.log(msg);
+// }("Furkan"))
 
 
 
